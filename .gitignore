@@ -1,0 +1,4 @@
+bin/
+.omo/
+token.json
+credentials.json
