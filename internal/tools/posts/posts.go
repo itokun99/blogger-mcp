@@ -11,12 +11,10 @@ import (
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
-// Post status values used when creating posts. blogger-go exports status
-// constants for pages (services.PageStatusLive/PageStatusDraft) but not for
-// posts, so they are defined locally.
+// Post status values used when creating posts.
 const (
-	statusDraft = "DRAFT"
-	statusLive  = "LIVE"
+	statusDraft = services.PostStatusDraft
+	statusLive  = services.PostStatusLive
 )
 
 type handlers struct {
