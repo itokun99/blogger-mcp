@@ -5,6 +5,8 @@ blogger-mcp is an MCP stdio server for the Blogger v3 REST API, built on the
 blogs, posts, pages, comments, and stats as MCP tools so an AI coding agent
 can develop and maintain a blog end to end.
 
+Documentation: <https://blogger-mcp.indrawan.dev>
+
 ## Features
 
 - **Blogs (3 tools)**: list the blogs a user can reach, then fetch one by ID or
